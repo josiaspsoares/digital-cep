@@ -1,0 +1,23 @@
+{
+    "name": "digital_cep/digital_cep",
+    "description": "Buscador de CEP online.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "josiassoares",
+            "email": "61014395+josiassoares@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "digital_cep\\digital_cep\\": "src/"
+        }
+    }
+}
